@@ -49,6 +49,19 @@ class Deck:
         for suit in suits:
             for value in range(1, 14):
                 self.stack.append(card(suit, value))
+
+    def shuffle(self, amount=1):
+        for i in range(amount):
+            shuffle(self.stack)
+
+    def  
+
+
+
+
+
+
+
 # class Player:
 #     def __init__(self):
 #         self. =
